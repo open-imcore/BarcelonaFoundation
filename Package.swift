@@ -16,7 +16,7 @@ let package = Package(
     dependencies: [
         .package(url: "https://github.com/EricRabil/Pwomise", .upToNextMajor(from: "1.0.3")),
         .package(url: "https://github.com/EricRabil/Swexy", .upToNextMajor(from: "1.0.1")),
-        .package(url: "https://github.com/EricRabil/Swog", .branch("main"))
+        .package(url: "https://github.com/EricRabil/Swog", .upToNextMajor(from: "1.0.0"))
     ],
     targets: [
         .target(

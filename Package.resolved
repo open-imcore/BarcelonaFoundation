@@ -32,9 +32,9 @@
         "package": "Swog",
         "repositoryURL": "https://github.com/EricRabil/Swog",
         "state": {
-          "branch": "main",
+          "branch": null,
           "revision": "6e60c30ba2eeb9cd10dae1d585c70f20118ac759",
-          "version": null
+          "version": "1.0.0"
         }
       }
     ]
