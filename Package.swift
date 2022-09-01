@@ -14,13 +14,11 @@ let package = Package(
             targets: ["BarcelonaFoundation"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/EricRabil/Pwomise", .upToNextMajor(from: "1.0.3")),
-        .package(url: "https://github.com/EricRabil/Swexy", .upToNextMajor(from: "1.0.1")),
-        .package(url: "https://github.com/EricRabil/Swog", .upToNextMajor(from: "1.0.0"))
+        .package(url: "https://github.com/EricRabil/Pwomise", .upToNextMajor(from: "1.1.3"))
     ],
     targets: [
         .target(
             name: "BarcelonaFoundation",
-            dependencies: ["Pwomise", "Swexy", "Swog"])
+            dependencies: ["Pwomise"])
     ]
 )
